@@ -1,0 +1,14 @@
+class Account
+{
+String name;
+long acno;
+String ifse;
+Account(){}
+Account(String name,long acno,String ifse)
+{
+this.name=name;
+this.acno=acno;
+this.ifse=ifse;
+}
+}
+

@@ -1,0 +1,73 @@
+class Book
+{
+static int count=0;
+{
+count++;
+}
+
+Book(int bid,String auther)
+{
+this.bid=bid;
+this.auther=auther;
+}
+Book(String auther,String title)
+{
+this.auther=auther;
+this.title=title;
+}
+Book(int bid,String auther,String title,double price)
+{
+this(bid,auther);
+this.title=title;
+this.price=price;
+}
+void displayDetails()
+{
+System.out.println("Book Id:~"+bid);
+System.out.println("Book Auther:~"+auther);
+System.out.println("Book Title:~"+title);
+System.out.println("Book price:~"+price+" Rs");
+System.out.println("No. of Book:~"+count++);
+System.out.println("*********************************************");
+}
+private int bid;
+public int getbid()
+	{
+	return bid;
+	}
+	private String auther;
+	public String getauther()
+	{
+		return auther;
+	}
+	private String title;
+	public String gettitle()
+	{
+		return title;
+	}
+private double price;
+public double getprice()
+{
+return price;
+}
+public void setprice(double price)
+{
+if(price>0)
+{
+this.price=price;
+System.out.println("price should not be negative");
+}
+else
+{
+System.out.print("invalid data");
+}
+}
+}
+
+
+
+
+
+
+
+ 

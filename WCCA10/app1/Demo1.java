@@ -1,0 +1,38 @@
+public class Demo1 {
+
+	public static void main(String[] args)throws Exception
+		{
+		
+		//primitive data
+		byte b=10;
+		short s=20;
+		int i=30;
+		long l=40;
+		float f=50;
+		double d=60;
+		char ch='a';
+		
+		//converting primitive data to object
+		Byte obj=Byte.valueOf(b);
+		Short obj1=Short.valueOf(s);
+		Integer obj2=Integer.valueOf(i);
+		Long obj3=Long.valueOf(l);
+		Float obj4=Float.valueOf(f);
+		Double obj5=Double.valueOf(d);
+		Character obj6=Character.valueOf(ch);
+		String str=String.valueOf(i);
+		Thread.sleep(2000);
+		System.out.println(obj);
+		System.out.println(obj1);
+		System.out.println(obj2);
+		System.out.println(obj3);
+		System.out.println(obj4);
+		System.out.println(obj5);
+		System.out.println(obj6);
+		System.out.println(str);
+		 
+		
+
+	}
+
+}

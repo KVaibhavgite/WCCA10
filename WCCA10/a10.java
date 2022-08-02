@@ -1,0 +1,26 @@
+class a10
+{
+static int a;
+static int b=20;
+static
+{
+System.out.println(" form static block1");
+System.out.println("a:"+a);
+System.out.println("b:"+b);
+a=b;
+}
+static
+{
+System.out.println("a:"+a);
+b=15;
+System.out.println("b:"+b);
+
+}
+public static void main(String[]args)
+{
+System.out.println("main start");
+System.out.println("a:"+a);
+System.out.println("b:"+b);
+System.out.println("main end");
+}
+}

@@ -1,0 +1,83 @@
+//package com.polymorphisms;
+
+import java.util.Scanner;
+
+//ATM interface----RBI(Service provider)
+interface Debitcard
+{
+	void withdraw();
+	void check_Balance();
+	void change_PIN();
+	void mini_statement();
+	void transfer();
+}
+
+//Service implements 01
+class SBIDebitcard implements Debitcard
+{
+	public void withdraw(){
+		System.out.println("Withdraw money SBI  = 2000");
+	}
+	public void check_Balance() {
+		System.out.println("Your SBI account balance is 4000");
+	}
+	public void change_PIN() {
+		System.out.println("Enter your Mobile no. \nEnter new PIN no. \nYour SBI PIN successfully change.");
+	}
+	public void mini_statement() {
+		System.out.println("Wait your SBI account min statement.");
+	}
+	public void transfer() {
+		System.out.println("you SBI account transfer money, another  account no.  enter ");
+	}
+}
+
+//Service implements 02
+class HDFCDebitcard implements Debitcard
+{
+	public void withdraw(){
+		System.out.println("Withdraw money HDFC  = 2000");
+	}
+	public void check_Balance() {
+		System.out.println("Your HDFC account balance is 4000");
+	}
+	public void change_PIN() {
+		System.out.println("Enter your Mobile no. \nEnter new PIN no. \nYour HDFC PIN successfully change.");
+	}
+	public void mini_statement() {
+		System.out.println("Wait your HDFC account min statement.");
+	}
+	public void transfer() {
+		System.out.println("you HDFC account transfer money, another  account no.  enter ");
+	}
+}
+
+
+
+//Service calling
+public class ATM extends SBIDebitcar // HDFCDebitcard
+{
+
+	public static void main(String[] args, Object Debitcard) {
+		// TODO Auto-generated method stub
+		ATM d=new ATM();
+		d.insert(Debitcard);
+
+	}
+
+	private void insert(Object debitcard) {
+		// TODO Auto-generated method stub
+		withdraw((double) 2000);
+		
+	}
+
+	private void withdraw(Double i) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		double value=sc.nextDouble();
+		
+	}
+
+	
+
+}

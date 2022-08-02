@@ -1,0 +1,4 @@
+class A
+{
+abstract public void demo();//CTE-A is not abstract and does not override abstract method demo() in A
+}

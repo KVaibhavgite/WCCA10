@@ -1,0 +1,7 @@
+class Cardiologities extands Doctor
+{
+public static void byPassSurgery()
+{
+System.out.println("can perform bypass surgery");
+}
+}

@@ -1,0 +1,11 @@
+class Car
+{
+String colour;
+int nos;
+engine e=new engine(240,32);
+Car(String colour,int nos)
+{
+this.colour=colour;
+this.nos=nos;
+}
+}

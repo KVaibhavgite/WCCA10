@@ -1,0 +1,10 @@
+class Ball
+{
+int radius;
+//int area;
+//int volume;
+public void radius()
+{
+System.out.println("radius");
+}
+}

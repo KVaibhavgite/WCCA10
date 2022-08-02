@@ -1,0 +1,13 @@
+class drive
+{
+public static void main(String[]args)
+{
+Laptop L1,L2;
+L1=new Laptop();
+L2=new Laptop();
+L1.setAtributes("HP",4,1,33333);
+L2.setAtributes("DELL",8,1,33444);
+L1.displayAtributes();
+L2.displayAtributes();
+}
+}

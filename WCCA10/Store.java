@@ -1,0 +1,22 @@
+class Store
+{
+public static void main(String []args)
+{
+Mobile m1,m2,m3,m4,m5;
+m1=new Mobile();
+m2=new Mobile();
+m3=new Mobile();
+m4=new Mobile();
+m5=new Mobile();
+m1.setAttributes("Apple",2,32,35000.0);
+m2.setAttributes("RedMi",6,64,14000.0);
+m3.setAttributes("POCO",6,64,13000.0);
+m4.setAttributes("VIVO",3,364,11000.0);
+m5.setAttributes("OPPO",4,32,15000.0);
+m1.displayAttributes();
+m2.displayAttributes();
+m3.displayAttributes();
+m4.displayAttributes();
+m5.displayAttributes();
+}
+}

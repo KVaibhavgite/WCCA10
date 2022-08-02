@@ -1,0 +1,12 @@
+class A5
+{
+public static void main(String[]args)
+{
+int[]a;
+a=new int[11];
+System.out.println(a);//ref
+System.out.println(a.length);//11
+a= new int [11;12;4;4];
+System.out.println(a.length);//11
+}
+}

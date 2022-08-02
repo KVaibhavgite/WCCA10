@@ -1,0 +1,17 @@
+class arithmatic
+{
+	public static void main(String[]args)
+	{
+		int a=10;
+		int b=20;
+		int sam=a+b;
+		float f=sam+0.012f;
+		System.out.println(f);
+		String see="my ans :";
+		System.out.println(sam);
+		System.out.println(see);
+		System.out.println(see+sam);
+		String ds=see+sam+see;
+		System.out.println(ds);
+	}
+}

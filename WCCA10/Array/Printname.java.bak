@@ -1,0 +1,17 @@
+class Printname
+{
+public static void main(String[]args)
+{
+String [] name=new String[5];
+name[0]="xyz";
+name[1]="abc";
+name[2]="def";
+name[3]="ghi";
+name[4]="jkl";
+System.out.println(name[0]);
+System.out.println(name[1]);
+System.out.println(name[2]);
+System.out.println(name[3]);
+System.out.println(name[4]);
+}
+}

@@ -1,0 +1,54 @@
+class Laptop
+{
+private int ram;
+public int getram()
+{
+return ram;
+}
+public void setram(int ram)
+{
+if( ram>0 && ram%4==0)
+{
+this.ram=ram;
+System.out.println("ram should not be negative");
+}
+else
+{
+System.out.print("invalid data");
+}
+}
+private int hard_disk;
+public int gethard_disk()
+{
+return hard_disk;
+}
+private int product_id;
+public int getproduct_id()
+{
+return product_id;
+}
+private double price;
+public double getprice()
+{
+return price;
+}
+public void setprice(double price)
+{
+this.price=price;
+}
+Laptop(int ram,int hard,int product_id,double price)
+{
+this.ram=ram;
+this.hard_disk=hard_disk;
+this.product_id=product_id;
+this.price=price;
+}
+void displayAttributes()
+{
+System.out.println("Laptop Ram:-"+ram);
+System.out.println("Laptop harddisk:-"+hard_disk);
+System.out.println("Laptop Product id:-"+product_id);
+System.out.println("Laptop price:-"+price);
+System.out.println("**********************************");
+}
+}

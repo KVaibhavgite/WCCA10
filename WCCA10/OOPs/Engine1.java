@@ -1,0 +1,16 @@
+class Engine1
+{
+int cc;
+int hp;
+Engine1(int cc,int hp)
+{
+this.cc=cc;
+this.hp=hp;
+}
+ public void display()
+{
+System.out.println("Engine1 cc:"+cc);
+System.out.println("Engine1 hp:"+hp);
+}
+}
+ 

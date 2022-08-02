@@ -1,0 +1,8 @@
+class TestDemo
+{
+static int a;
+public static void main(String[]args)
+{
+int a=12;
+Testdemo.a=23;
+System.out.println(")

@@ -1,0 +1,7 @@
+class  Students extends Trainers 
+{
+	public void Stuty() 
+	{
+		System.out.println("classes will be offline soon");
+	}
+}

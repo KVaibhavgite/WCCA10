@@ -1,0 +1,7 @@
+class Blackberry extends Mobile 
+{
+	pubiic void Communication() 
+	{
+		System.out.println("Blackberry is used for massaging");
+	}
+}

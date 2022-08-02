@@ -1,0 +1,10 @@
+class Demo
+{
+static void main(String[]args)
+{
+int a=12;
+testdemo.a=10;
+System.out.println("static varible"+testdemo.a);
+System.out.println("local variable"+a);
+}
+}

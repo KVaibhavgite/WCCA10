@@ -1,0 +1,36 @@
+class LoanAccount1 extends Account1
+{
+double amount;
+double emi;
+double interest;
+LoanAccount1(){}
+LoanAccount1(double amount,double emi, double interest,String name,long acno,String ifse)
+{
+this.amount=amount;
+this.emi=emi;
+this.interest=interest;
+this.name=name;
+this.acno=acno;
+this.ifse=ifse;
+}
+public void displayDetail()
+{
+System.out.println("Account amount:-"+amount);
+System.out.println("Account EMI:-"+emi);
+System.out.println("Account interest:-"+interest);
+System.out.println("Account Holder Name:-"+name);
+System.out.println("IFSE Code:-"+ifse);
+System.out.println("Account number:-"+acno);
+System.out.println("*************************************");
+}
+public void setDetail(double c,double e,double w,String n,String i,int a,double b)
+{
+ amount=c;
+ emi=e;
+ interest=w;
+ name=n;
+ ifse=i;
+ acno=a;
+ balance=b;
+ }
+}

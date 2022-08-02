@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class PrintAscii
+{
+public static void main(String[]args)
+{
+Scanner input=new Scanner(System.in);
+System.out.println("Enter the character");
+char ch=input.next().charAt(0);
+int ascii=ch;
+System.out.println(ch+"-->"+ascii);
+}
+}
